@@ -1,0 +1,6 @@
+# Install with:  pip install -r requirements.txt
+anthropic        # talks to Claude
+chromadb         # local vector database + built-in free embedding model
+pypdf            # reads text out of PDF files
+python-dotenv    # loads your API key from the .env file
+streamlit        # the web version (app_streamlit.py)
