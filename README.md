@@ -4,6 +4,8 @@ Ask questions about your own PDF and text files. The bot finds the most
 relevant passages and asks Claude to answer **using only those passages**.
 If the answer isn't in your files, it says so instead of guessing.
 
+![The web app answering a question about the sample handbook, with the source excerpts it used](docs/screenshot.png)
+
 ```
 your files ──► chunks ──► embeddings ──► Chroma DB (on your disk)
                                               │
